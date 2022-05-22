@@ -1,0 +1,14 @@
+{
+  "name": "thmsbfft",
+  "short_name": "thmsbfft",
+  "description": "Thomas Buffet is a designer based in Los Angeles.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "icons": [{
+    "src": "/assets/icon.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "thmsbfft.info",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "bankai start site/index.js",
+    "build": "bankai build site/index.js dist/",
+    "inspect": "bankai inspect site/index.js",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thmsbfft/thmsbfft.info.git"
+  },
+  "author": "Thomas Buffet",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bankai": "^9.15.3",
+    "choo": "^6.13.3",
+    "choo-service-worker": "^2.4.0",
+    "fsevents": "^2.3.2",
+    "intersection-observer": "^0.5.1",
+    "moment-timezone": "^0.5.23",
+    "monolazy": "0.0.0",
+    "npm": "^6.9.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "choo-devtools": "^2.5.1",
+    "image-size": "^0.6.3",
+    "powerwalker": "^0.1.0",
+    "smarkt": "0.0.6",
+    "uid": "0.0.2"
+  }
+}
