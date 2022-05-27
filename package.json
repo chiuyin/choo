@@ -17,13 +17,20 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "bankai": "^9.15.3",
+    "chokidar": "^3.5.3",
     "choo": "^6.13.3",
     "choo-service-worker": "^2.4.0",
+    "core-js": "^3.22.7",
+    "debug": "^4.3.4",
+    "flat": "^5.0.2",
     "intersection-observer": "^0.5.1",
+    "mixin-deep": "^2.0.1",
+    "mkdirp": "^1.0.4",
     "moment-timezone": "^0.5.23",
     "monolazy": "0.0.0",
     "npm": "^6.9.0",
-    "socket.io": "^2.2.0"
+    "set-value": "^4.1.0",
+    "socket.io": "^4.5.1"
   },
   "devDependencies": {
     "choo-devtools": "^2.5.1",
